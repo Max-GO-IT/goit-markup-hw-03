@@ -92,12 +92,17 @@ img {
 /*ХИРО*/
 .hero {
   background: #2f303a;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
   color: #ffffff;
 }
 .hero-button {
