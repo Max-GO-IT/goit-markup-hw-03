@@ -260,8 +260,15 @@ button:hover {
 }
 
 /* СЕКЦИЯ КНОПОК В ПОРТФОЛИО */
-
+.buttons-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .portfolio-button {
+  padding: 6px 22px;
+  margin-right: 8px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.62;
