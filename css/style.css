@@ -44,24 +44,10 @@ img {
 /*ХЕДЕР*/
 
 .header {
-  height: 80px;
   display: flex;
   justify-content: space-between;
 }
-.logo {
-  padding-top: 24px;
-}
-.studio-portfolio-contacts {
-  display: flex;
-  margin-top: 32px;
-  margin-right: 331px;
-}
-.nav-item {
-  margin-right: 50px;
-}
-.nav-item:last-child {
-  margin-right: 0;
-}
+
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -75,16 +61,7 @@ img {
 .nav-link-active {
   color: var(--hover-color);
 }
-.header-contacts-list {
-  display: flex;
-  margin-top: 32px;
-}
-.header-contacts-item {
-  margin-right: 50px;
-}
-.header-contacts-item:last-child {
-  margin-right: 0;
-}
+
 .contact-link {
   font-weight: 500;
   font-size: 14px;
