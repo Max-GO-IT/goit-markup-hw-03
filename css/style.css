@@ -335,9 +335,13 @@ button:hover {
 }
 
 /* ПОРТФОЛИО */
-.images-section {
+.portfolio-container {
+  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
+}
+.images-list {
+  
 }
 .portfolio-item {
   margin: 30px;
@@ -361,3 +365,7 @@ button:hover {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+.portfolio-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 24px;
