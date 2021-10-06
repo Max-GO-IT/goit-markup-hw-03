@@ -310,8 +310,6 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
-  padding-bottom: 56px;
 }
 .portfolio-button {
   padding: 6px 22px;
@@ -338,14 +336,9 @@ button:hover {
 
 /* ПОРТФОЛИО */
 .images-section {
-  padding-bottom: 94px;
-
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
-
 .portfolio-item {
   margin: 30px;
   width: 370px;
@@ -353,10 +346,6 @@ button:hover {
 }
 .portfolio-link {
   text-decoration: none;
-}
-
-.portfolio-image {
-  height: 294px;
 }
 .portfolio-title {
   font-weight: 700;
