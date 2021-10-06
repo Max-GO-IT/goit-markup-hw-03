@@ -344,9 +344,13 @@ button:hover {
   justify-content: center;
 }
 .portfolio-item {
-  margin: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
   width: 370px;
   border: 1px solid #eeeeee;
+}
+portfolio-item:last-child {
+  margin-left: 0;
 }
 .portfolio-link {
   text-decoration: none;
