@@ -337,11 +337,11 @@ button:hover {
 /* ПОРТФОЛИО */
 .portfolio-container {
   padding-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
 }
 .images-list {
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .portfolio-item {
   margin: 30px;
