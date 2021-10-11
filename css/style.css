@@ -37,9 +37,9 @@ img {
 }
 
 .container {
-  max-width: 1200px;
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /*ХЕДЕР*/
@@ -170,11 +170,14 @@ button:hover {
   margin-right: 0;
 }
 .about-us-title {
+  margin-bottom: 10px;
+
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
 }
 .paragraph-text {
@@ -200,8 +203,6 @@ button:hover {
 .apps {
   margin-top: 50px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .apps-item {
   margin-right: 30px;
@@ -227,15 +228,13 @@ button:hover {
   justify-content: space-between;
 }
 .ourteam-item {
-  width: 270px;
-  height: 368px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .ourteam-wrapper {
-  margin-top: 30px;
+  padding: 30px;
 }
 .team-name {
   font-weight: 500;
@@ -257,10 +256,6 @@ button:hover {
 
 /*ФУТЕР*/
 
-.footer {
-  height: 252px;
-  background: #2f303a;
-}
 .studio {
   font-family: Raleway;
   font-style: 500;
@@ -274,6 +269,7 @@ button:hover {
 .footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
+  background: #2f303a;
 }
 .footer-list {
   margin-top: 20px;
@@ -281,10 +277,13 @@ button:hover {
 .footer-item {
   margin-bottom: 9px;
 }
+.footer-item:last-child {
+  margin-bottom: 0;
+}
 
 .contact-address {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -293,7 +292,6 @@ button:hover {
 }
 .footer-contact {
   font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
