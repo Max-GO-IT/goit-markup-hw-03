@@ -351,7 +351,6 @@ button:hover {
 .portfolio-item {
   margin-left: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 portfolio-item:last-child {
   margin-left: 0;
@@ -376,5 +375,6 @@ portfolio-item:last-child {
 .portfolio-wrapper {
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-left: 24px;
+  padding-left: 24px;
+  border: 1px solid #eeeeee;
 }
