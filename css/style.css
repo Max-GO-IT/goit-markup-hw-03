@@ -44,20 +44,22 @@ img {
 
 /*ХЕДЕР*/
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 80px;
   border-bottom: 1px solid #ececec;
 }
+.header-container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: Raleway;
-  font-style: 500;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19em;
   letter-spacing: 0.03em;
   text-decoration: none;
+
   color: var(--hover-color);
 }
 .logo-prefix {
@@ -71,6 +73,7 @@ img {
   color: var(--primary-text-color);
 }
 .studio-portfolio-contacts {
+  margin-left: 93px;
   display: flex;
   align-items: center;
 }
@@ -96,6 +99,7 @@ img {
 .header-contacts-list {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 .header-contacts-item {
   margin-right: 50px;
