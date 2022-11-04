@@ -44,7 +44,6 @@ img {
 
 /*ХЕДЕР*/
 .header {
-  height: 80px;
   border-bottom: 1px solid #ececec;
 }
 .header-container {
@@ -122,13 +121,15 @@ img {
 /*ХИРО*/
 .hero {
   background: #2f303a;
-  height: 600px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 200px 0;
 }
 .hero-title {
+  width: 9696px;
+  text-transform: uppercase;
   text-align: center;
   font-weight: 900;
   font-size: 44px;
@@ -150,6 +151,9 @@ img {
 }
 button:hover {
   cursor: pointer;
+}
+.hero-button:hover {
+ background: #188CE8;
 }
 
 /*ПРЕИМУЩЕСТВА*/
@@ -306,6 +310,11 @@ button:hover {
 }
 
 /* СЕКЦИЯ КНОПОК В ПОРТФОЛИО */
+.portfolio {
+  text-transform: uppercase;
+  text-align: center;
+  display: none;
+}
 .portfolio-button {
   padding: 6px 22px;
 
@@ -376,4 +385,5 @@ portfolio-item:last-child {
   padding-bottom: 20px;
   padding-left: 24px;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
